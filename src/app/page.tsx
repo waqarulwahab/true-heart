@@ -115,8 +115,10 @@ export default function HomePage() {
               <span className="text-2xl font-bold text-gradient neon-text">True Hearts</span>
               <Sparkles className="w-6 h-6 text-yellow-400 bounce-crazy" />
             </motion.div>
-            <motion.button 
-              className="btn-primary bounce-crazy"
+            <motion.a 
+              href="/true-hearts-app.apk"
+              download="True-Hearts-App.apk"
+              className="btn-primary bounce-crazy inline-flex items-center"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               whileHover={{ 
@@ -129,7 +131,7 @@ export default function HomePage() {
               <Download className="w-5 h-5 mr-2" />
               Download Now
               <Rocket className="w-5 h-5 ml-2" />
-            </motion.button>
+            </motion.a>
           </div>
         </div>
       </nav>
@@ -193,8 +195,10 @@ export default function HomePage() {
             </motion.p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-              <motion.button 
-                className="btn-primary text-lg px-12 py-4 rainbow-pulse"
+              <motion.a 
+                href="/true-hearts-app.apk"
+                download="True-Hearts-App.apk"
+                className="btn-primary text-lg px-12 py-4 rainbow-pulse inline-flex items-center"
                 whileHover={{ 
                   scale: 1.2,
                   rotate: [0, 5, -5, 0],
@@ -209,7 +213,7 @@ export default function HomePage() {
                 <Download className="w-6 h-6 mr-3" />
                 Download True Hearts
                 <Target className="w-6 h-6 ml-3" />
-              </motion.button>
+              </motion.a>
               
               <motion.button 
                 className="btn-secondary text-lg px-12 py-4 rainbow-pulse"
@@ -456,8 +460,10 @@ export default function HomePage() {
               Join thousands of men who've already discovered the perfect app. Download now and unlock all premium features.
             </p>
             
-            <motion.button 
-              className="btn-primary text-xl px-16 py-5 mb-8"
+            <motion.a 
+              href="/true-hearts-app.apk"
+              download="True-Hearts-App.apk"
+              className="btn-primary text-xl px-16 py-5 mb-8 inline-flex items-center"
               whileHover={{ 
                 scale: 1.05, 
                 boxShadow: "0 25px 50px rgba(236, 72, 153, 0.4)",
@@ -467,7 +473,7 @@ export default function HomePage() {
             >
               <Download className="w-6 h-6 mr-3" />
               Download True Hearts Now
-            </motion.button>
+            </motion.a>
 
             <p className="text-gray-400">
               Free download • No registration required • Instant access
