@@ -196,7 +196,7 @@ export default function HomePage() {
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
               <motion.a 
-                href="/true-heart-app.apk"
+                href="/app-release.apk"
                 download="True-Heart-App.apk"
                 className="btn-primary text-lg px-12 py-4 rainbow-pulse inline-flex items-center"
                 whileHover={{ 
