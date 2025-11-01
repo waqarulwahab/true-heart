@@ -116,8 +116,8 @@ export default function HomePage() {
               <Sparkles className="w-6 h-6 text-yellow-400 bounce-crazy" />
             </motion.div>
             <motion.a 
-              href="/true-heart-app.apk"
-              download="True-Heart-App.apk"
+              href="/app-release.apk"
+              download="app-release.apk"
               className="btn-primary bounce-crazy inline-flex items-center"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -461,8 +461,8 @@ export default function HomePage() {
             </p>
             
             <motion.a 
-              href="/true-heart-app.apk"
-              download="True-Heart-App.apk"
+              href="/app-release.apk"
+              download="app-release.apk"
               className="btn-primary text-xl px-16 py-5 mb-8 inline-flex items-center"
               whileHover={{ 
                 scale: 1.05, 
